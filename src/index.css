@@ -1,0 +1,45 @@
+html, body {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0
+}
+#root {
+    min-height: 100%;
+    display: flex;
+}
+.App{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.logo {
+    width: 30px;
+    height: 30px;
+}
+.App .header {
+    padding: 10px;
+}
+.App .header .headerInner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerInner .title{
+  font-weight: bold;
+}
+
+/* input and content */
+
+.App input {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.App .content {
+  pointer-events: none;
+}
