@@ -9,13 +9,13 @@ Actually just a simple front-end web app to generate cool-looking text and lines
 Clone to your directory.
 
 ```
-git clone https://github.com/sylnsyln/svg-background
+git clone https://github.com/ohsyln/svg-background
 ```
 
 Install dependencies
 
 ```
-npm i --save react react-dom react-scripts
+npm install
 ```
 
 ## Start Client
@@ -28,4 +28,4 @@ npm start
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
